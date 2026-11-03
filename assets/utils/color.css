@@ -1,0 +1,10 @@
+:root {
+  --color-title: hsl(218, 44%, 22%);
+  --color-background: hsl(212, 45%, 89%);
+  --color-text: hsl(220, 15%, 55%);
+  --card-width: min(100%, 320px);
+  --card-padding: 1rem;
+  --radius-lg: 1.25rem;
+  --radius-sm: 0.75rem;
+  --shadow-color: rgba(31, 50, 81, 0.15);
+}

@@ -1,0 +1,62 @@
+@import url(assets/includes/header.css);
+@import url(assets/includes/footer.css);
+@import url(assets/utils/color.css);
+@import url(assets/utils/base.css);
+
+
+
+body {
+    background-color: var(--color-background);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    font-family: 'Outfit', sans-serif;
+}
+
+.card {
+    background-color: #fff;
+    width: var(--card-width);
+    padding: var(--card-padding);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 1.125rem 1.5rem -0.5rem var(--shadow-color);
+}
+
+.card__image {
+    display: block;
+    width: 100%;
+    border-radius: var(--radius-sm);
+}
+
+.card__title {
+    margin-top: 1.4rem;
+    font-size: clamp(1.3rem, 1.2rem + 0.5vw, 1.75rem);
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    font-weight: 700;
+    color: var(--color-title);
+    text-align: center;
+}
+
+.card__text {
+    margin-top: 0.85rem;
+    font-size: 0.95rem;
+    line-height: 1.45;
+    font-weight: 400;
+    color: var(--color-text);
+    text-align: center;
+    padding: 0 0.35rem;
+}
+
+@media (max-width: 375px) {
+    body {
+        padding: 1rem;
+    }
+
+    .card {
+        width: min(100%, 290px);
+    }
+}

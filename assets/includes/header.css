@@ -1,0 +1,29 @@
+.card {
+    display: block;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 1.25rem;
+    max-width: 20rem;
+    box-shadow: 0 1.25rem 1.5rem -0.75rem rgba(31, 50, 81, 0.2);
+}
+
+.card__image {
+    display: block;
+    width: 100%;
+    border-radius: 0.75rem;
+}
+
+.card__title {
+    margin-top: 1.3rem;
+    color: var(--color-title);
+    font-size: clamp(1.35rem, 1.2rem + 0.5vw, 1.75rem);
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+}
+
+.card__text {
+    margin-top: 0.8rem;
+    color: var(--color-text);
+    font-size: 0.95rem;
+    line-height: 1.45;
+}
